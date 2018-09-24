@@ -1,0 +1,26 @@
+<div class="header">
+    <h1 class="form-heading">Online Notice Board</h1>
+    <a href="#" class="logout">Logout</a>
+</div>
+<div class="login-form">
+<div >
+  <table class="table table-condensed">
+    <thead>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Age</th>
+      <th>Action</th>
+    </thead>
+    <tbody *ngFor="let notice of notices">
+      <td >{{notice.id}}</td>
+        <td >{{notice.name}}</td>
+        <td >{{notice.email}}</td>
+        <td >{{notice.age}}</td>
+        <td><button class="alert alert-danger" type="submit" (click)="delete(notice.id)">Delete</button></td>
+      
+      
+    </tbody>
+  </table>
+</div>
+</div>

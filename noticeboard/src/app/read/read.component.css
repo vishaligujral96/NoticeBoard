@@ -1,0 +1,18 @@
+.header{
+    height:80px;
+    background-color: rgb(187, 122, 160);
+}
+.logout{
+    margin-left:1450px;
+    top: 30px;
+    color:black;
+}
+.form-heading { color:#fff; font-size:23px;margin-left: 600px;}
+
+.login-form{ background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg");
+             background-repeat:no-repeat; 
+             background-position:center;
+             background-size:cover;
+             padding:10px;
+             height:698px;
+            }
